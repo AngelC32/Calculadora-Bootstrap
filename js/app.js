@@ -8,3 +8,4 @@ function sumar(){
         resultado="La operación no incluye números";
     document.getElementById("resultado").innerHTML=`Resultado: ${resultado}`;
 }
+document.getElementById("sumar").addEventListener("click",sumar);
